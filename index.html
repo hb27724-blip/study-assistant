@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Assistant — مساعد الدراسة</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#ffffff; --muted:#5a5a5a; --line:#e3e3e3; --accent:#0b7261; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#ececec; --bg:#141414; --muted:#a8a8a8; --line:#2c2c2c; --accent:#4fd1b3; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:"Segoe UI",system-ui,sans-serif; line-height:1.8; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 72px; }
+  h1 { font-size:2rem; margin:0 0 8px; }
+  h2 { font-size:1.2rem; margin:36px 0 10px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  .lead { color:var(--muted); margin:0 0 28px; }
+  ul { padding-inline-start:22px; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; border-top:1px solid var(--line); padding-top:16px; color:var(--muted); font-size:.9rem; }
+</style>
+<main>
+  <h1>Study Assistant — مساعد الدراسة</h1>
+  <p class="lead">أداة شخصية تجمع واجبات ومواعيد الدراسة في مكان واحد.</p>
+
+  <h2>شنو يسوي التطبيق</h2>
+  <p>Study Assistant أداة شخصية يستخدمها صاحبها فقط لتنظيم دراسته الجامعية. يقرأ التطبيق مواد Google Classroom الخاصة بالمستخدم نفسه — الكورسات والواجبات والإعلانات والمواد التعليمية — ويحولها إلى قائمة مهام بمواعيدها، مع تنبيهات قبل اقتراب موعد التسليم وملخص يومي وأسبوعي.</p>
+
+  <h2>الميزات</h2>
+  <ul>
+    <li>مزامنة تلقائية مع Google Classroom كل 30 دقيقة.</li>
+    <li>قائمة مهام موحدة: واجبات، مختبرات، تقارير، امتحانات، قراءات.</li>
+    <li>تنبيهات قبل المواعيد النهائية بـ 24 و72 ساعة.</li>
+    <li>ملخص يومي وأسبوعي لما تبقى من مهام.</li>
+    <li>واجهة ويب وتطبيق للهاتف والحاسوب.</li>
+  </ul>
+
+  <h2>الصلاحيات المطلوبة</h2>
+  <p>التطبيق يطلب صلاحيات <strong>قراءة فقط</strong> من Google Classroom، ولا يملك أي صلاحية تعديل أو حذف أو إرسال:</p>
+  <ul>
+    <li><code>classroom.courses.readonly</code> — قراءة قائمة الكورسات.</li>
+    <li><code>classroom.coursework.me.readonly</code> — قراءة واجبات المستخدم.</li>
+    <li><code>classroom.announcements.readonly</code> — قراءة إعلانات الكورس.</li>
+    <li><code>classroom.courseworkmaterials.readonly</code> — قراءة المواد التعليمية.</li>
+  </ul>
+
+  <h2>روابط</h2>
+  <ul>
+    <li><a href="./privacy.html">سياسة الخصوصية</a></li>
+    <li><a href="./terms.html">شروط الاستخدام</a></li>
+  </ul>
+
+  <footer>تطبيق شخصي غير تجاري · للتواصل: <a href="mailto:hb27724@gmail.com">hb27724@gmail.com</a></footer>
+</main>
+</html>
